@@ -20,6 +20,14 @@ body {
   padding: 20px;
   font-weight: 300;
 }
+.navbar-toggler {
+  border-radius: 0;
+  border-color: #ff9966;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#ff9966' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
 
 .navbar>.container-fluid .navbar-brand {
   color: #ff9966;
@@ -343,7 +351,7 @@ body {
   color: #fff;
 }
 
-.case-study:hover .case-study-back h3 {
+.case-study .case-study-back h3 {
   text-transform: uppercase;
 }
 
@@ -369,6 +377,7 @@ footer a:hover {
 }
 
 footer .icons {
+  padding-left: 0;
   list-style-type: none;
 }
 
@@ -392,7 +401,7 @@ footer .icons li a:hover {
   color: #ff9966;
 }
 
-footer .icons li a:first-child {
+footer .icons li:first-child {
   padding-left: 0;
 }
 

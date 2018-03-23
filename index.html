@@ -4,31 +4,40 @@
 <head>
   <meta charset="utf-8">
   <title>ApexCreations</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/master.css">
 </head>
 
 <body>
-  <nav class="navbar navbar-menu" style="">
+  <nav class="navbar navbar-expand-lg navbar-menu">
     <div class="container-fluid">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-        <a class="navbar-brand" href="#">ApexCreations</a>
-      </div>
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="#">About</a></li>
-          <li><a href="#">Our Team</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="pricing.html" class="">Portfolio</a></li>
-          <li><a href="register.html" class="btn nav-btn">Sign In</a></li>
+      <a class="navbar-brand" href="#">ApexCreations</a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Our Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a href="register.html" class="btn nav-btn">Sign In</a>
+          </li>
         </ul>
       </div>
     </div>
@@ -36,7 +45,7 @@
   <div class="welcome">
     <canvas id="particles-js"></canvas>
     <div class="welcome-content">
-      <img src="https://vignette.wikia.nocookie.net/logopedia/images/4/4a/Phoenix_Television.png/revision/latest?cb=20110929145625">
+      <img src="images/logo.png">
       <p>Leveraging Creativity</p>
     </div>
     <div class="scroll-down">
@@ -89,7 +98,7 @@
     <h5>This is our story.</h5>
   </a>
   <div class="case-studies">
-    <div class="container">
+    <div class="container text-center">
       <div class="section">
         <h1>Featured Case Studies</h1>
         <div class="row">
@@ -124,15 +133,19 @@
             </div>
           </div>
         </div>
-        <button class="btn primary-btn center-block">View Our Work</button>
+        <button class="btn primary-btn">View Our Work</button>
       </div>
     </div>
   </div>
-  <div class="section">
+  <div class="section text-center">
     <div class="container">
       <h1>Join Our Discord!</h1>
-      <img src="https://discordapp.com/assets/1c8a54f25d101bdc607cec7228247a9a.svg" class="discord-logo center-block" alt="Discord">
-      <button class="btn primary-btn center-block more-padding">Join</button>
+      <div>
+        <img src="https://discordapp.com/assets/1c8a54f25d101bdc607cec7228247a9a.svg" class="discord-logo center-block" alt="Discord">
+      </div>
+      <div>
+        <button class="clearfix btn primary-btn more-padding">Join</button>
+      </div>
     </div>
   </div>
   <footer>
@@ -152,7 +165,7 @@
     </div>
   </footer>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.0.2/particles.js"></script>
   <script src="js/script.js"></script>
 </body>
