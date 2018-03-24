@@ -20,6 +20,7 @@ body {
   padding: 20px;
   font-weight: 300;
 }
+
 .navbar-toggler {
   border-radius: 0;
   border-color: #ff9966;
@@ -46,12 +47,12 @@ body {
   .content {
     margin-left: 290px;
   }
+  .case-study {
+    margin-top: 10px;
+  }
 }
 
 @media (max-width: 768px) {
-  .navbar-brand {
-    display: none;
-  }
   .navbar-nav>li>a {
     font-size: 14px !important;
     text-align: center;
@@ -71,6 +72,10 @@ body {
   }
   .content>.welcome-obj>h1 {
     font-size: 30px !important;
+  }
+  .ac-icons div .fa {
+    font-size: 24px !important;
+    padding: 15px !important;
   }
 }
 
