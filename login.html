@@ -3,35 +3,48 @@
 
 <head>
   <meta charset="utf-8">
-  <title></title>
+  <title>ApexCreations - Login</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-  <div class="container">
+  <div class="holder">
+  <div class="wrapper">
+      <div class="box">
+        <img src="images/logo.png">
+        <form class="col-12">
+          <div class="group">
+            <input type="text" required>
+            <span class="highlight"></span>
+            <span class="bar"></span>
+            <label>Email</label>
+          </div>
 
-    <img src="https://up-1.cdn-fullscreendirect.com/production/photos/10272/large/20170308_225340_10272_972071.png">
+          <div class="group" style="margin-bottom: 0px;">
+            <input type="text" required>
+            <span class="highlight"></span>
+            <span class="bar"></span>
+            <label>Password</label>
+          </div>
+          <div class="button-login">
+        </div>
+          <div class="button-login">
+          <button type="submit" name="submit" class="btn primary-btn">Login</button>
+          </div>
+        </form>
 
-    <form>
-      <div class="group">
-        <input type="text" required>
-        <span class="highlight"></span>
-        <span class="bar"></span>
-        <label>Name</label>
+        <a href="">Forgot your password?</a>
+        <br>
+        <a href="">Need An Account?</a>
       </div>
-
-      <div class="group">
-        <input type="text" required>
-        <span class="highlight"></span>
-        <span class="bar"></span>
-        <label>Email</label>
       </div>
-
-    </form>
-
-    <p class="footer">Designed by <a href="">Savvy</a></p>
-
-  </div>
+      </div>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+      <script src="js/accounts.js" charset="utf-8"></script>
 </body>
 
 </html>
